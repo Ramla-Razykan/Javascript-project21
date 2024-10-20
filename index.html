@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Card</title>
+    <!-- OWN CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Student Report Card</h1>
+
+        <div class="input-section">
+            <input type="text" id="studentName" placeholder="Enter Your Name">
+            <input type="text" id="studentID" placeholder="Enter Your ID">
+            <button onclick="generateMarksheet()">Generate Report Card</button>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>S.No</th>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Urdu</th>
+                <th>Science</th>
+                <th>Total Marks</th>
+                <th>Total Obtained</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>201</td>
+                <td>Abdul Basit</td>
+                <td>85</td>
+                <td>75</td>
+                <td>90</td>
+                <td>88</td>
+                <td>400</td>
+                <td>338</td>
+                <td>84.5%</td>
+                <td>B</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202</td>
+                <td>Muhammad Bilal</td>
+                <td>78</td>
+                <td>82</td>
+                <td>85</td>
+                <td>80</td>
+                <td>400</td>
+                <td>325</td>
+                <td>81.25%</td>
+                <td>B</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>101</td>
+                <td>Kiran</td>
+                <td>77</td>
+                <td>88</td>
+                <td>91</td>
+                <td>100</td>
+                <td>400</td>
+                <td>356</td>
+                <td>89.0%</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>102</td>
+                <td>Muhiddin</td>
+                <td>67</td>
+                <td>75</td>
+                <td>80</td>
+                <td>85</td>
+                <td>400</td>
+                <td>307</td>
+                <td>76.75%</td>
+                <td>C</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>103</td>
+                <td>Ramla</td>
+                <td>85</td>
+                <td>65</td>
+                <td>72</td>
+                <td>78</td>
+                <td>400</td>
+                <td>300</td>
+                <td>75.0%</td>
+                <td>C</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>104</td>
+                <td>Ayesha</td>
+                <td>85</td>
+                <td>90</td>
+                <td>95</td>
+                <td>89</td>
+                <td>400</td>
+                <td>359</td>
+                <td>89.75%</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>105</td>
+                <td>Zain</td>
+                <td>85</td>
+                <td>78</td>
+                <td>79</td>
+                <td>80</td>
+                <td>400</td>
+                <td>322</td>
+                <td>80.5%</td>
+                <td>B</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>106</td>
+                <td>Sana</td>
+                <td>92</td>
+                <td>85</td>
+                <td>90</td>
+                <td>95</td>
+                <td>400</td>
+                <td>362</td>
+                <td>90.5%</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>107</td>
+                <td>Hamza</td>
+                <td>80</td>
+                <td>70</td>
+                <td>85</td>
+                <td>90</td>
+                <td>400</td>
+                <td>325</td>
+                <td>81.25%</td>
+                <td>B</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>108</td>
+                <td>Sara</td>
+                <td>92</td>
+                <td>80</td>
+                <td>85</td>
+                <td>90</td>
+                <td>400</td>
+                <td>347</td>
+                <td>86.75%</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+        </table>
+        
+
+        <div class="marksheet-card" id="marksheetCard">
+            <h2>Student Marksheet Card</h2>
+            <p id="marksheetDetails"></p>
+        </div>
+    </div>
+
+    <!-- OWN JAVA SCRIPT LINK -->
+    <script src="script.js"></script>
+</body>
+
+</html>
